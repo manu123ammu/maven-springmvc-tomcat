@@ -17,7 +17,7 @@ public class HelloWorldController implements Controller {
 		Map<String, String> map = new HashMap<String,String>();
 		map.put("name", name);
 
-		return new ModelAndView("index", map);
+		return new ModelAndView("welcome", map);
 	}
 
 }
